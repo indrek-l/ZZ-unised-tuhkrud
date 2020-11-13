@@ -1,0 +1,55 @@
+body{
+	background-color:rgb(40,40,40);
+	color:rgb(240,240,240);
+
+	font-family: Verdana;
+	font-size:18px;
+	font-weight:400;
+
+	line-height:1.6em;
+}
+a{
+	text-decoration:none;
+	color:rgb(240,240,240);
+}
+a:hover{
+	color:red;
+}
+a:active{
+	color:rgb(180,0,0);
+}
+a:visited{
+	color:rgb(180,0,0);
+}
+.esimene{
+	width: 80%;
+	margin:auto;
+	border-left:5px red solid;
+	padding-left:5px;
+}
+.pilt{
+	width: 80%;
+	margin:auto;
+}
+.nimekiri{
+	width:80%;
+	margin:auto;
+	padding-left:5px;
+}
+.nimekiri h2{
+	text-align:left;
+	border-left:5px red solid;
+	padding-left:5px;
+}
+.peatükk h3{
+	font-size: 18px;
+}
+.peatükk li{
+	margin-left: 2em
+}
+.tabel{
+	width:80%;
+	margin:auto;
+	padding-left:5px;
+	padding-top:20px;
+}
