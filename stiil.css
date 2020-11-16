@@ -20,9 +20,6 @@ a:hover{
 a:active{
 	color:rgb(180,0,0);
 }
-a:visited{
-	color:rgb(180,0,0);
-}
 .leht{
 	width: 80%;
 	margin:auto;
@@ -46,7 +43,6 @@ a:visited{
 #navbar{
 	background-color:#333;
 	color:#fff;
-	text-align: center;
 }
 
 #navbar ul{
