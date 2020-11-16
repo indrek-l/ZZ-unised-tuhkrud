@@ -30,7 +30,6 @@ a:active{
 .esimene{
 	width: 80%;
 	margin:auto;
-	border-left:5px red solid;
 	padding:20px;
 }
 .pilt{
@@ -80,7 +79,6 @@ a:active{
 }
 .nimekiri h2{
 	text-align:left;
-	border-left:5px red solid;
 	padding-left:5px;
 }
 .peatükk h3{
