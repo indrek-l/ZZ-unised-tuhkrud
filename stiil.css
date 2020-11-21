@@ -10,32 +10,189 @@ body{
 
 	margin: 0;
 }
+
 a{
 	text-decoration:none;
 	color:rgb(240,240,240);
 }
+
 a:active{
 	color:rgb(180,0,0);
 }
+
 .leht{
-	width: 80%;
+	width:80%;
 	margin:auto;
-	overflow: hidden;
+	overflow:hidden;
 }
+
 #päis{
-	background: rgb(200, 140, 140);
+	background:rgb(200, 140, 140);
 	color:rgb(240,240,240);
-	padding: 10px;
+	padding:10px;
 }
+
 .esimene{
-	width: 80%;
+	width:80%;
 	margin:auto;
 	padding:20px;
 }
-.pilt{
-	width: 80%;
+
+.esilehe_pilt{
+	width:80%;
 	margin:auto;
 }
+
+.esilehe_pilt img{
+	width:300px;
+}
+
+.galerii_vasak{
+	display:flex;
+	justify-content: space-between;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.galerii_parem{
+	display:flex;
+	flex-direction:row-reverse;
+	justify-content: center;
+}
+
+.pilt img{
+	float:top;
+	height: 400px;
+	padding: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 2px;
+}
+
+.pilt figcaption{
+	float:bottom;
+	font-size:10px;
+	padding:2px;
+	text-align:center;
+}
+.pilt_väike{
+	float:center;
+}
+.pilt_väike img{
+	border-radius: 50%;
+	float:top;
+	height: 200px;
+	padding: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 2px;
+}
+.pilt_väike figcaption{
+	font-size:10px;
+	padding: 2px;
+	text-align: center;
+}
+.pilt_piklik img{
+	width:900px;
+}
+.pilt_piklik figcaption{
+	font-size: 10px;
+	padding:2px;
+	text-align: center;
+}
+
+
+.pilt_kommentaar_parem{
+	width:80%;
+	margin:auto;
+	float:right;
+	text-align:right;
+}
+.pilt_kommentaar_vasak{
+	width: 80%;
+	margin: auto;
+	float: right;
+	text-align: left;
+}
+
+.tsitaat{
+	position:relative;
+	border:none;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: justify;
+	margin-bottom: -30px;
+	quotes: "\201C""\201D""\2018""\2019";
+}
+.tsitaat h4{
+	font-style: italic;
+	font-size: 18px;
+	font-weight: normal;
+}
+.tsitaat h4:before{
+	font-style: normal;
+	content:open-quote;
+	font-weight: bold;
+	font-size: 35px;
+	color:rgb(100,100,100);
+}
+.tsitaat h4:after{
+	text-indent: 3px;
+	font-style: normal;
+	content:close-quote;
+	font-weight: bold;
+	font-size: 35px;
+	color:rgb(100,100,100);
+}
+.tsitaadi_viide{
+	padding-top: 16px;
+	font-size:12px;
+	text-align:right;
+}
+.tsitaat_väike{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: justify;
+	margin-bottom: -30px;
+	quotes: "\201C""\201D""\2018""\2019";
+}
+.tsitaat_väike h4{
+	font-style: italic;
+	font-size: 12px;
+	font-weight: normal;
+}
+.tsitaat_väike h4:before{
+	font-style: normal;
+	content:open-quote;
+	font-weight: bold;
+	font-size: 35px;
+	color:rgb(100,100,100);
+}
+.tsitaat_väike h4:after{
+	text-indent: 3px;
+	font-style: normal;
+	content:close-quote;
+	font-weight: bold;
+	font-size: 35px;
+	color:rgb(100,100,100);
+}
+
+.kommentaar_tsitaadiga{
+	border:none;
+	padding:0;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+}
+
+.definitsiooni_selgitus{
+	list-style-type: none;
+	text-align: justify;
+}
+.definitsiooni_selgitus li{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
 #navbar{
 	background-color:#333;
 	color:rgb(240,240,240);
@@ -56,6 +213,7 @@ a:active{
 	font-size:18px;
 	padding-right:25px;
 }
+
 #sissejuhatus{
 	background-image:url('pildid/kandinsky7.jpg');
 	/*background-position:center right;*/
@@ -77,16 +235,20 @@ a:active{
 	margin:auto;
 	padding-left:5px;
 }
+
 .nimekiri h2{
 	text-align:left;
 	padding-left:5px;
 }
+
 .peatükk h3{
 	font-size: 18px;
 }
+
 .peatükk li{
 	margin-left: 2em;
 }
+
 .tabel{
 	width:80%;
 	margin:auto;
@@ -94,11 +256,7 @@ a:active{
 	padding-top:20px;
 	padding-bottom: 20px;
 }
-.probleem{
-	background: rgb(200, 0, 0);
-	margin: auto;
-	padding:20px;
-}
+
 #jalus{
 	background: #333;
 	color:#fff;
