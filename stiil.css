@@ -11,15 +11,6 @@ body{
 	margin: 0px;
 }
 
-a{
-	text-decoration:none;
-	color:rgb(240,240,240);
-}
-
-a:active{
-	color:rgb(180,0,0);
-}
-
 .leht{
 	width:80%;
 	margin:auto;
@@ -29,7 +20,7 @@ a:active{
 #päis{
 	background:rgb(200, 140, 140);
 	color:rgb(240,240,240);
-	padding:10px;
+	padding:8px;
 	
 }
 
@@ -204,15 +195,14 @@ a:active{
 }
 
 #navbar ul{
-	margin: 0px;
+	margin-top: 0px;
 	padding:0px;
 	list-style: none;
-	
+
 }
 
 #navbar li{
 	margin: 0px;
-	margin: 8px;
 	padding:0px;
 	display:inline;
 	float: left;
@@ -229,7 +219,7 @@ a:active{
 	color:rgb(200,200,200);
 	text-decoration: none;
 	font-size:18px;
-	padding:5px;
+	padding:9px;
 }
 
 #sissejuhatus{
