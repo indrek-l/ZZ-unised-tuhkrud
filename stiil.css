@@ -15,9 +15,6 @@ a{
 	text-decoration:none;
 	color:rgb(240,240,240);
 }
-a:active{
-	color:rgb(240, 180, 180);
-}
 
 a:hover{
 	color:rgb(240, 180, 180);
@@ -283,4 +280,10 @@ a:hover{
 	text-align: center;
 	padding:20px;
 	margin-top:40px;
+}
+.kast{
+	background: rgb(60, 60, 60);
+	padding: 10px 38px;
+	margin-top: 45px;
+	font-size:18px;
 }
