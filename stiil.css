@@ -342,6 +342,17 @@ section h2{
 	text-decoration: underline;
 	text-decoration-color: rgb(200,140,140);
 }
+.vastuväide_vastus_raam{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.vastuväide{
+	padding: 40px;
+}
+.vastus{
+	padding: 40px;
+}
 #navbar{
 	margin: 0px;
 	background-color:#333;
