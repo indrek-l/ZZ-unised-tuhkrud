@@ -10,14 +10,21 @@ body{
 
 	margin: 0px;
 }
-
 a{
 	text-decoration:none;
 	color:rgb(240,240,240);
 }
-
 a:hover{
-	color:rgb(240, 180, 180);
+	color:rgb(200, 140, 140);
+}
+section{
+	padding-top: 26px;
+	padding-right: 16px;
+	padding-left: 16px;
+	padding-bottom: 16px;
+}
+section h2{
+	text-align: center;
 }
 
 .leht{
@@ -30,7 +37,6 @@ a:hover{
 	background:rgb(200, 140, 140);
 	color:rgb(240,240,240);
 	padding:8px;
-	
 }
 
 .esimene{
@@ -43,14 +49,138 @@ a:hover{
 	width:80%;
 	margin:auto;
 }
-
 .esilehe_pilt img{
 	width:300px;
 }
 
+.slaideri_raam{
+	position: relative;
+	align-content: center;
+}
+
+.slaidid_1{
+	width: 90%;
+	display: none;
+	margin: auto;
+}
+.slaidid_2{
+	display: none;
+}
+.slaidid_3{
+	width: 90%;
+	display: none;
+	margin: auto;
+}
+.slaidid_4{
+	width: 90%;
+	display: none;
+	margin: auto;
+}
+.slaidid_5{
+	width: 90%;
+	display: none;
+	margin: auto;
+}
+.nupp_eelmine, .nupp_järgmine{
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -30px;
+	padding: 16px;
+	color: rgb(60,60,60);
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+.nupp_eelmine{
+	position: absolute;
+	left: 0px;
+	border-radius: 3px 0 0 3px;
+}
+.nupp_järgmine{
+	position: absolute;
+	right: 0px;
+	border-radius: 0 3px 3px 0;
+}
+.nupp_eelmine:hover, .nupp_järgmine:hover {
+	background-color: rgb(200,140,140);
+	color:rgb(240,240,240);
+}
+
+.täppide_raam{
+	text-align: center;
+	background-color: rgb(40,40,40);
+}
+.täpp_1{
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: rgb(60,60,60);
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+.aktiivne_täpp_1, .täpp_1:hover {
+	background-color: rgb(200, 140, 140);
+}
+.täpp_2{
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: rgb(60,60,60);
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+.aktiivne_täpp_2, .täpp_2:hover {
+	background-color: rgb(200, 140, 140);
+}
+.täpp_3{
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: rgb(60,60,60);
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+.aktiivne_täpp_3, .täpp_3:hover {
+	background-color: rgb(200, 140, 140);
+}
+.täpp_4{
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: rgb(60,60,60);
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+.aktiivne_täpp_4, .täpp_4:hover {
+	background-color: rgb(200, 140, 140);
+}
+.täpp_5{
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: rgb(60,60,60);
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+.aktiivne_täpp_5, .täpp_5:hover {
+	background-color: rgb(200, 140, 140);
+}
+
 .galerii_vasak{
 	display:flex;
-	justify-content: space-between;
 	flex-direction: row;
 	justify-content: center;
 }
@@ -60,13 +190,15 @@ a:hover{
 	flex-direction:row-reverse;
 	justify-content: center;
 }
+.slaideri_ja_täppide_raam{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
 
 .pilt img{
 	float:top;
 	height: 400px;
-	padding: 15px;
-	padding-left: 15px;
-	padding-right: 15px;
 	padding-bottom: 2px;
 }
 
@@ -76,14 +208,11 @@ a:hover{
 	padding:2px;
 	text-align:center;
 }
-.pilt_väike{
-	float:center;
-}
 .pilt_väike img{
 	border-radius: 50%;
 	float:top;
 	height: 200px;
-	padding: 15px;
+	padding-top: 15px;
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-bottom: 2px;
@@ -102,16 +231,14 @@ a:hover{
 	text-align: center;
 }
 
-
 .pilt_kommentaar_parem{
-	width:80%;
 	margin:auto;
 	float:right;
-	text-align:right;
+	text-align: right;
 }
 .pilt_kommentaar_vasak{
-	width: 80%;
 	margin: auto;
+	padding-right: 16px;
 	float: right;
 	text-align: left;
 }
@@ -124,26 +251,30 @@ a:hover{
 	margin-bottom: -30px;
 	quotes: "\201C""\201D""\2018""\2019";
 }
+.tsitaat b{
+	color: rgb(200,140,140);
+}
 .tsitaat h4{
 	font-style: italic;
 	font-size: 18px;
 	font-weight: normal;
 }
-.tsitaat h4:before{
+.tsitaat h4:before{ /*jutumärgid*/
 	font-style: normal;
 	content:open-quote;
 	font-weight: bold;
 	font-size: 35px;
-	color:rgb(100,100,100);
+	color:rgb(200,140,140);
 }
-.tsitaat h4:after{
+.tsitaat h4:after{ /*jutumärgid*/
 	text-indent: 3px;
 	font-style: normal;
 	content:close-quote;
 	font-weight: bold;
 	font-size: 35px;
-	color:rgb(100,100,100);
+	color:rgb(200,140,140);
 }
+
 .tsitaadi_viide{
 	padding-top: 16px;
 	font-size:12px;
@@ -160,20 +291,20 @@ a:hover{
 	font-size: 12px;
 	font-weight: normal;
 }
-.tsitaat_väike h4:before{
+.tsitaat_väike h4:before{ /*jutumärgid*/
 	font-style: normal;
 	content:open-quote;
 	font-weight: bold;
 	font-size: 35px;
-	color:rgb(100,100,100);
+	color:rgb(200,140,140);
 }
-.tsitaat_väike h4:after{
+.tsitaat_väike h4:after{ /*jutumärgid*/
 	text-indent: 3px;
 	font-style: normal;
 	content:close-quote;
 	font-weight: bold;
 	font-size: 35px;
-	color:rgb(100,100,100);
+	color:rgb(200,140,140);
 }
 
 .kommentaar_tsitaadiga{
@@ -182,6 +313,20 @@ a:hover{
 	display:flex;
 	flex-direction:column;
 	justify-content: center;
+}
+
+.def_päis {
+	text-align: center;
+	font-size: 10px;
+	color: rgb(200,140,140);
+}
+.def_sõnastus {
+	text-align: center;
+	line-height: 30px;
+}
+.def_kommentaar {
+	text-align: right;
+	font-size: 10px;
 }
 
 .definitsiooni_selgitus{
@@ -193,7 +338,10 @@ a:hover{
 	flex-direction: row;
 	align-items: center;
 }
-
+.avatud_leht{
+	text-decoration: underline;
+	text-decoration-color: rgb(200,140,140);
+}
 #navbar{
 	margin: 0px;
 	background-color:#333;
@@ -282,8 +430,14 @@ a:hover{
 	margin-top:40px;
 }
 .kast{
+	margin:auto;
 	background: rgb(60, 60, 60);
 	padding: 10px 38px;
-	margin-top: 45px;
 	font-size:18px;
+}
+.kast_2{
+	width: 50%;
+	margin: auto;
+	background: rgb(60, 60, 60);
+	padding: 10px 60px 30px;
 }
