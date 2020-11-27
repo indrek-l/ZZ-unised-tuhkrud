@@ -333,11 +333,6 @@ h5{
 	justify-content: center;
 }
 
-.def_päis {
-	text-align: center;
-	font-size: 10px;
-	color: rgb(200,140,140);
-}
 .def_sõnastus {
 	text-align: center;
 	line-height: 30px;
@@ -345,6 +340,10 @@ h5{
 .def_kommentaar {
 	text-align: right;
 	font-size: 10px;
+}
+
+.definitsioon{
+	margin-top: 50px;
 }
 
 .definitsiooni_selgitus{
@@ -381,6 +380,7 @@ h5{
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
+	z-index: 9;
 }
 
 #navbar ul{
