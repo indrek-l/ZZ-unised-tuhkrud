@@ -26,6 +26,12 @@ section{
 section h2{
 	text-align: center;
 }
+h5{
+	font-weight: normal;
+	font-size: 18px;
+	text-align: center;
+	color: rgb(240,240,240);
+}
 
 .leht{
 	width:80%;
@@ -51,6 +57,26 @@ section h2{
 }
 .esilehe_pilt img{
 	width:300px;
+}
+.video{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: justify;
+}
+.video div{
+	border-radius: 5px;
+	width: 560px;
+	height: 315px;
+	overflow: hidden;
+}
+
+.joondatud_lõik_pealkirjaga{
+	text-align: justify;
+}
+.joondatud_lõik_pealkirjaga h2{
+	text-align: center;
 }
 
 .slaideri_raam{
@@ -222,14 +248,6 @@ section h2{
 	padding: 2px;
 	text-align: center;
 }
-.pilt_piklik img{
-	width:900px;
-}
-.pilt_piklik figcaption{
-	font-size: 10px;
-	padding:2px;
-	text-align: center;
-}
 
 .pilt_kommentaar_parem{
 	margin:auto;
@@ -347,11 +365,14 @@ section h2{
 	flex-direction: row;
 	align-items: center;
 }
+.vastuväide_vastus_raam b{
+	color: rgb(200,140,140)
+}
 .vastuväide{
-	padding: 40px;
+	width:1080px;
 }
 .vastus{
-	padding: 40px;
+	padding:60px;
 }
 #navbar{
 	margin: 0px;
@@ -442,9 +463,20 @@ section h2{
 }
 .kast{
 	margin:auto;
+	display: flex;
+	flex-direction: column;
 	background: rgb(60, 60, 60);
 	padding: 10px 38px;
 	font-size:18px;
+}
+.kast p{
+text-align: justify;
+}
+.kast_1{
+	width: 50%;
+	margin: auto;
+	background: rgb(60, 60, 60);
+	padding: 10px 60px 30px;
 }
 .kast_2{
 	width: 50%;
