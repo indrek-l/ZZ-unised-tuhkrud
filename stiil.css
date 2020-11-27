@@ -32,7 +32,7 @@ h5{
 	text-align: center;
 	color: rgb(240,240,240);
 }
-#taust{
+.taust{
 	background-color:rgb(40,40,40);
 	padding: 70px;
 	height: 70%;
@@ -79,13 +79,7 @@ h5{
 	padding: 10px 7px;
 	line-height: 30px;
 	font-size:26px;
-}
 
-.video div{
-	border-radius: 5px;
-	width: 560px;
-	height: 315px;
-	overflow: hidden;
 }
 
 .joondatud_lõik_pealkirjaga{
@@ -93,6 +87,12 @@ h5{
 }
 .joondatud_lõik_pealkirjaga h2{
 	text-align: center;
+}
+
+.slaideri_kast{
+	margin: 30px 80px;
+	overflow: hidden;
+	background-color: rgb(40, 40, 40);
 }
 
 .slaideri_raam{
@@ -464,6 +464,8 @@ h5{
 	margin-top:40px;
 }
 .kast{
+	margin: 90%;
+	overflow: hidden;
 	margin:auto;
 	display: flex;
 	flex-direction: column;
