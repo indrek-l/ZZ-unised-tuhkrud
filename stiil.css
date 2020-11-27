@@ -1,7 +1,7 @@
 body{
-	background-color:rgb(40,40,40);
+	
 	color:rgb(240,240,240);
-	/*background-image:url('pildid/kandinsky7.png');*/	
+	background-image:url('pildid/kandinsky7.png');	
 	font-family: Verdana;
 	font-size:16px;
 	font-weight:400;
@@ -31,6 +31,14 @@ h5{
 	font-size: 18px;
 	text-align: center;
 	color: rgb(240,240,240);
+}
+.taust{
+	background-color:rgb(40,40,40);
+	padding: 70px;
+	height: 70%;
+	width:70%;
+	margin:auto;
+	overflow:hidden;
 }
 
 .leht{
@@ -65,11 +73,13 @@ h5{
 	justify-content: center;
 	text-align: justify;
 }
-.video div{
-	border-radius: 5px;
-	width: 560px;
-	height: 315px;
-	overflow: hidden;
+.video h2{
+	border-left: 7px double rgb(200, 130, 130);
+	margin: 20px 0px;
+	padding: 10px 7px;
+	line-height: 30px;
+	font-size:26px;
+
 }
 
 .joondatud_lõik_pealkirjaga{
@@ -77,6 +87,12 @@ h5{
 }
 .joondatud_lõik_pealkirjaga h2{
 	text-align: center;
+}
+
+.slaideri_kast{
+	margin: 30px 80px;
+	overflow: hidden;
+	background-color: rgb(40, 40, 40);
 }
 
 .slaideri_raam{
@@ -334,7 +350,9 @@ h5{
 }
 
 .def_sõnastus {
-	text-align: center;
+	border-left: 7px double rgb(200, 130, 130);
+	margin: 0px 10%;
+	padding-left: 7px;
 	line-height: 30px;
 }
 .def_kommentaar {
@@ -343,7 +361,7 @@ h5{
 }
 
 .definitsioon{
-	margin-top: 50px;
+	
 }
 
 .definitsiooni_selgitus{
@@ -411,22 +429,6 @@ h5{
 	padding:9px;
 }
 
-#sissejuhatus{
-	background-image:url('pildid/kandinsky7.jpg');
-	/*background-position:center right;*/
-	min-height:300px;
-	margin-bottom:30px;
-	text-align: center;
-	background-size: cover;
-}
-
-#sissejuhatus h1{
-	color: #fff;
-	font-size:50px;
-	line-height: 1.6em;
-	padding-top:50px;
-}
-
 .nimekiri{
 	width:80%;
 	margin:auto;
@@ -462,6 +464,8 @@ h5{
 	margin-top:40px;
 }
 .kast{
+	margin: 90%;
+	overflow: hidden;
 	margin:auto;
 	display: flex;
 	flex-direction: column;
